@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,button,p,span,table,tr,th,td,img,a,em,i{ margin:0; padding:0;}
+body{font:12px '\5FAE\8F6F\96C5\9ED1',tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif; min-width:1200px;}
+h1,h2,h3,h4,h5,h6,em,i{ font-style:normal; font-weight: normal;font-size:100%;}
+table,tr,td,img,button,input,textarea{ border:none; background:none;}
+ol,ul{list-style: none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:focus,a:visited{ outline:none;}
+img{width:100%;display:block;}
+.wrap{ width:1200px; margin:0 auto;}
+/*定位*/
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear: both;height:0;}
+.clearfix{*zoom:1;}
+.header{
+	background:#FFF;
+	height:122px;	
+}
+.logo{
+	width:82px;
+	margin:18px 62px 0 83px;
+	float:left;
+}
+.tab{
+	line-height:45px;
+	padding-top:40px;
+	float:left;
+}
+.tab a{
+	color:#4d515d;
+	font-size:24px;
+	display:inline-block;
+	margin:0 30px;
+	position:relative;
+}
+.tab a:nth-last-of-type(1):after{
+	display:none;
+}
+.tab a:after{
+	content:"";
+	width:6px;
+	height:6px;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	background:#858585;
+	display:inline-block;
+	position:absolute;
+	top:50%;
+	margin-top:-3px;
+	right:-33px;
+}
+/*版权*/
+.copyRight{
+	line-height:40px;
+	font-size:20px;
+	color:#333;
+	padding:60px 0 50px;
+	text-align:center;
+}
+.copyRight a{
+	color:#e30f7a;
+	text-decoration:underline;
+}
